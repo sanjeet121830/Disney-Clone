@@ -42,10 +42,11 @@ const Nav = styled.nav`
   background-color: #090b13;
   display: flex;
   align-items: center;
+  overflow-x:hidden;
 `;
 const Logo = styled.img`
   width: 80px;
-  padding: 0px 36px;
+  margin:0px 16px;
 `;
 const NavMenu = styled.div`
   display: flex;
@@ -93,7 +94,7 @@ const NavMenu = styled.div`
 const UserImage = styled.img`
   height: 48px;
   width: 48px;
-  padding: 0px 36px;
+  margin: 0px 25px;
   border-radius: 50%;
   cursor: pointer;
   object-fit: cover;
